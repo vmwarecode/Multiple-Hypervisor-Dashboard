@@ -1,0 +1,1205 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1552497140171,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "bf205ca6-b4c0-4d85-82be-6574cf347648",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Multiple Hypervisor Dashboard",
+      "namePath": "Custom Dashboards",
+      "rank": 548,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "f4267049-2072-4418-b519-bfc977a441f8",
+            "widgetIdReceiver": "f72d6ecb-feb8-4c86-9f92-e81ef02e5f7e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "984aabbb-ca1b-4ff9-8a24-1691bd9f69ee",
+            "widgetIdReceiver": "ecc26130-50fe-4367-9271-dd91e63a7800"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d0c8bf63-23ef-49a0-8ada-3c73d0b7c79f",
+            "widgetIdReceiver": "192e4851-b277-4550-be97-d4f04aa4aaa3"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "f72d6ecb-feb8-4c86-9f92-e81ef02e5f7e",
+            "widgetIdReceiver": "5bbebc90-a085-42e1-b93d-1796e45d4105"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "ecc26130-50fe-4367-9271-dd91e63a7800",
+            "widgetIdReceiver": "4b06b965-1bf7-4ad2-a36d-60b342d1f2ef"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "192e4851-b277-4550-be97-d4f04aa4aaa3",
+            "widgetIdReceiver": "7aba3fad-0f23-4994-90a3-17056c150a33"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "f72d6ecb-feb8-4c86-9f92-e81ef02e5f7e",
+            "widgetIdReceiver": "b086e451-3459-4c66-aac2-e8d4762604c2"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "ecc26130-50fe-4367-9271-dd91e63a7800",
+            "widgetIdReceiver": "dbacc6a1-0237-4b88-b861-ea3b405fb8cf"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "192e4851-b277-4550-be97-d4f04aa4aaa3",
+            "widgetIdReceiver": "817a8e6e-858d-4606-ac40-9731d72d079c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "2e7475bb-cd0c-4be8-a604-33008ae2605e",
+            "widgetIdReceiver": "d482f385-e07e-4ddb-9342-7c7c2dedc364"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d482f385-e07e-4ddb-9342-7c7c2dedc364",
+            "widgetIdReceiver": "e092f31b-e5f2-4c88-a85d-f2f627baf796"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d482f385-e07e-4ddb-9342-7c7c2dedc364",
+            "widgetIdReceiver": "442e5f55-95d9-4183-b953-17ce6cdf3553"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {"thresholds": {
+                     "colors": [
+                        "#FF0000",
+                        "#FFFF00",
+                        "#00FF00"
+                     ],
+                     "values": [
+                        0,
+                        50,
+                        100
+                     ]
+                  }},
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "id": "extModel3192-1",
+                  "mode": {"mode": false},
+                  "name": "esxi hosts",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:1_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "title": "VMware ESXi Hosts",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 1
+            },
+            "height": 324,
+            "id": "f4267049-2072-4418-b519-bfc977a441f8",
+            "states": [{
+               "key": "perm_HeatMap_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_f4267049-2072-4418-b519-bfc977a441f8",
+               "value": "o%3A"
+            }],
+            "title": "VMware ESXi Hosts",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {"thresholds": {
+                     "colors": [
+                        "#FF0000",
+                        "#FFFF00",
+                        "#00FF00"
+                     ],
+                     "values": [
+                        0,
+                        50,
+                        100
+                     ]
+                  }},
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "id": "extModel3373-1",
+                  "mode": {"mode": false},
+                  "name": "hper-v hosts",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:2_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "title": "Microsoft Hyper-V Hosts",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 1
+            },
+            "height": 324,
+            "id": "984aabbb-ca1b-4ff9-8a24-1691bd9f69ee",
+            "states": [{
+               "key": "perm_HeatMap_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_984aabbb-ca1b-4ff9-8a24-1691bd9f69ee",
+               "value": "o%3A"
+            }],
+            "title": "Microsoft Hyper-V Hosts",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {"thresholds": {
+                     "colors": [
+                        "#FF0000",
+                        "#FFFF00",
+                        "#00FF00"
+                     ],
+                     "values": [
+                        0,
+                        50,
+                        100
+                     ]
+                  }},
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "id": "extModel3554-1",
+                  "mode": {"mode": false},
+                  "name": "kvm hosts",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:3_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "title": "KVM Hosts",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 1
+            },
+            "height": 324,
+            "id": "d0c8bf63-23ef-49a0-8ada-3c73d0b7c79f",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_d0c8bf63-23ef-49a0-8ada-3c73d0b7c79f",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_HeatMap_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_d0c8bf63-23ef-49a0-8ada-3c73d0b7c79f",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "KVM Hosts",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [{
+                  "boxLabel": "OS",
+                  "metricKey": "summary|guest|fullName",
+                  "metricName": "Summary|Guest Operating System|Guest OS Full Name",
+                  "resourceKindId": "resourceKind:id:4_::_"
+               }],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:4_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:4_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "VMware VMs (for selected ESXi Host)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 7
+            },
+            "height": 324,
+            "id": "f72d6ecb-feb8-4c86-9f92-e81ef02e5f7e",
+            "states": [{
+               "key": "permResGrid_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_f72d6ecb-feb8-4c86-9f92-e81ef02e5f7e",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A281%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A280%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "VMware VMs (for selected ESXi Host)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [{
+                  "boxLabel": "OS",
+                  "metricKey": "Details|operating_system",
+                  "metricName": "Details|Operating System",
+                  "resourceKindId": "resourceKind:id:5_::_"
+               }],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:5_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:5_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Microsoft Hyper-V VMs (for selected Host)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 7
+            },
+            "height": 324,
+            "id": "ecc26130-50fe-4367-9271-dd91e63a7800",
+            "states": [{
+               "key": "permResGrid_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_ecc26130-50fe-4367-9271-dd91e63a7800",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A157%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A259%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Microsoft Hyper-V VMs (for selected Host)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Architecture",
+                     "metricKey": "config|architecture",
+                     "metricName": "Configuration|Architecture",
+                     "resourceKindId": "resourceKind:id:6_::_"
+                  },
+                  {
+                     "boxLabel": "OS",
+                     "metricKey": "config|name",
+                     "metricName": "Configuration|Name",
+                     "resourceKindId": "resourceKind:id:6_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:6_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:6_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "KVM VMs (for selected Host)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 7
+            },
+            "height": 324,
+            "id": "192e4851-b277-4550-be97-d4f04aa4aaa3",
+            "states": [
+               {
+                  "key": "permResGrid_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_192e4851-b277-4550-be97-d4f04aa4aaa3",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A148%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A117%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A143%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253Aname%2525255Edirection%2525253Ds%252525253AASC"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_192e4851-b277-4550-be97-d4f04aa4aaa3",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "KVM VMs (for selected Host)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9057-1",
+                        "isStringMetric": false,
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9057-2",
+                        "isStringMetric": false,
+                        "label": "CPU Contention",
+                        "link": "",
+                        "metricKey": "cpu|capacity_contentionPct",
+                        "metricName": "CPU|Contention",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9057-3",
+                        "isStringMetric": false,
+                        "label": "CPU Usage",
+                        "link": "",
+                        "metricKey": "cpu|usage_average",
+                        "metricName": "CPU|Usage",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9057-4",
+                        "isStringMetric": false,
+                        "label": "Memory Balloon",
+                        "link": "",
+                        "metricKey": "mem|balloonPct",
+                        "metricName": "Memory|Balloon",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9057-5",
+                        "isStringMetric": false,
+                        "label": "Memory Contention",
+                        "link": "",
+                        "metricKey": "mem|host_contentionPct",
+                        "metricName": "Memory|Contention",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9057-6",
+                        "isStringMetric": false,
+                        "label": "Memory Usage",
+                        "link": "",
+                        "metricKey": "mem|usage_average",
+                        "metricName": "Memory|Usage",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Scoreboard (for selected VMware VM)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 1,
+               "y": 13
+            },
+            "height": 267,
+            "id": "5bbebc90-a085-42e1-b93d-1796e45d4105",
+            "title": "Scoreboard (for selected VMware VM)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12600-1",
+                        "isStringMetric": false,
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Microsoft Hyper-V Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12600-2",
+                        "isStringMetric": false,
+                        "label": "CPU Usage",
+                        "link": "",
+                        "metricKey": "cpu|cpu_usage",
+                        "metricName": "CPU|CPU Usage",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Microsoft Hyper-V Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12600-4",
+                        "isStringMetric": false,
+                        "label": "Storage IO",
+                        "link": "",
+                        "metricKey": "Disk|storage_io",
+                        "metricName": "Disk|Storage I/O",
+                        "metricUnitId": "mbyteps",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Microsoft Hyper-V Virtual Machine",
+                        "unit": "MB/s",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12600-3",
+                        "isStringMetric": false,
+                        "label": "Memory Available",
+                        "link": "",
+                        "metricKey": "Memory|memory_available",
+                        "metricName": "Memory|Memory Available",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Microsoft Hyper-V Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12600-6",
+                        "isStringMetric": false,
+                        "label": "Dynamic Memory Demand",
+                        "link": "",
+                        "metricKey": "Memory|dynamic_memory_demand",
+                        "metricName": "Memory|Dynamic Memory Demand",
+                        "metricUnitId": "mibyte",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Microsoft Hyper-V Virtual Machine",
+                        "unit": "MiB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12600-5",
+                        "isStringMetric": false,
+                        "label": "Network IO",
+                        "link": "",
+                        "metricKey": "Network|network_io",
+                        "metricName": "Network|Network I/O",
+                        "metricUnitId": "mbyteps",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Microsoft Hyper-V Virtual Machine",
+                        "unit": "MB/s",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Scoreboard (for selected Hyper-V VM)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 4,
+               "y": 13
+            },
+            "height": 267,
+            "id": "4b06b965-1bf7-4ad2-a36d-60b342d1f2ef",
+            "title": "Scoreboard (for selected Hyper-V VM)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15243-1",
+                        "isStringMetric": false,
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "KVM Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15243-6",
+                        "isStringMetric": false,
+                        "metricKey": "badge|risk",
+                        "metricName": "Badge|Risk",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "KVM Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15243-3",
+                        "isStringMetric": false,
+                        "label": "Max CPU Percent",
+                        "link": "",
+                        "metricKey": "cpuInfo|maxCpuPercentage",
+                        "metricName": "CPU Information|Max CPU percent",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "KVM Virtual Machine",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15243-5",
+                        "isStringMetric": true,
+                        "label": "Runtime State",
+                        "link": "",
+                        "metricKey": "runtime|state",
+                        "metricName": "Runtime|State",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "KVM Virtual Machine",
+                        "unit": ""
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Scoreboard (for selected KVM VM)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 7,
+               "y": 13
+            },
+            "height": 267,
+            "id": "7aba3fad-0f23-4994-90a3-17056c150a33",
+            "title": "Scoreboard (for selected KVM VM)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected VMware VM)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 18
+            },
+            "height": 324,
+            "id": "b086e451-3459-4c66-aac2-e8d4762604c2",
+            "states": [
+               {
+                  "key": "permDateFilter_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_b086e451-3459-4c66-aac2-e8d4762604c2",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_b086e451-3459-4c66-aac2-e8d4762604c2",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A240%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AresourceName%2525255Edirection%2525253Ds%252525253AASC"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_b086e451-3459-4c66-aac2-e8d4762604c2",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permViewMode_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_b086e451-3459-4c66-aac2-e8d4762604c2",
+                  "value": "s%3Atime"
+               }
+            ],
+            "title": "Alert List (for selected VMware VM)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected Hyper-V VM)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 18
+            },
+            "height": 324,
+            "id": "dbacc6a1-0237-4b88-b861-ea3b405fb8cf",
+            "states": [
+               {
+                  "key": "permDateFilter_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_dbacc6a1-0237-4b88-b861-ea3b405fb8cf",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permViewMode_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_dbacc6a1-0237-4b88-b861-ea3b405fb8cf",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_dbacc6a1-0237-4b88-b861-ea3b405fb8cf",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC"
+               }
+            ],
+            "title": "Alert List (for selected Hyper-V VM)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected KVM VM)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 18
+            },
+            "height": 324,
+            "id": "817a8e6e-858d-4606-ac40-9731d72d079c",
+            "states": [
+               {
+                  "key": "permViewMode_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_817a8e6e-858d-4606-ac40-9731d72d079c",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_817a8e6e-858d-4606-ac40-9731d72d079c",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Alert List (for selected KVM VM)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {"thresholds": {
+                     "colors": [
+                        "#FF0000",
+                        "#FFFF00",
+                        "#00FF00"
+                     ],
+                     "values": [
+                        0,
+                        50,
+                        100
+                     ]
+                  }},
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "xenserver hosts",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:7_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": null
+               }],
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "title": "Xen Hypervisor Hosts",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 1
+            },
+            "height": 324,
+            "id": "2e7475bb-cd0c-4be8-a604-33008ae2605e",
+            "states": [{
+               "key": "perm_HeatMap_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_2e7475bb-cd0c-4be8-a604-33008ae2605e",
+               "value": "o%3A"
+            }],
+            "title": "Xen Hypervisor Hosts",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "OS",
+                     "metricKey": "config|name",
+                     "metricName": "Configuration|Name",
+                     "resourceKindId": "resourceKind:id:8_::_"
+                  },
+                  {
+                     "boxLabel": "Architecture",
+                     "metricKey": "config|architecture",
+                     "metricName": "Configuration|Architecture",
+                     "resourceKindId": "resourceKind:id:8_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:8_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:8_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Xen Hypervisor VMs (for selected Xen Hypervisor Host)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 7
+            },
+            "height": 324,
+            "id": "d482f385-e07e-4ddb-9342-7c7c2dedc364",
+            "states": [{
+               "key": "permResGrid_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_d482f385-e07e-4ddb-9342-7c7c2dedc364",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A133%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A132%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Xen Hypervisor VMs (for selected Xen Hypervisor Host)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12313-1",
+                        "isStringMetric": false,
+                        "metricKey": "badge|health",
+                        "metricName": "Badge|Health",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Xen Hypervisor Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12822-1",
+                        "isStringMetric": false,
+                        "metricKey": "badge|risk",
+                        "metricName": "Badge|Risk",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Xen Hypervisor Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12313-2",
+                        "isStringMetric": false,
+                        "metricKey": "cpuInfo|maxCpuPercentage",
+                        "metricName": "CPU Information|Max CPU percent",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Xen Hypervisor Virtual Machine",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel12313-3",
+                        "isStringMetric": true,
+                        "metricKey": "runtime|state",
+                        "metricName": "Runtime|State",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Xen Hypervisor Virtual Machine",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Scoreboard (for selected Xen Hypervisor VM)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 3,
+               "x": 10,
+               "y": 13
+            },
+            "height": 267,
+            "id": "e092f31b-e5f2-4c88-a85d-f2f627baf796",
+            "title": "Scoreboard (for selected Xen Hypervisor VM)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "mode": "resource",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected Xen Hypervisor VM)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 18
+            },
+            "height": 324,
+            "id": "442e5f55-95d9-4183-b953-17ce6cdf3553",
+            "states": [
+               {
+                  "key": "permDateFilter_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_442e5f55-95d9-4183-b953-17ce6cdf3553",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permViewMode_widget_bf205ca6-b4c0-4d85-82be-6574cf347648_442e5f55-95d9-4183-b953-17ce6cdf3553",
+                  "value": "s%3Atime"
+               }
+            ],
+            "title": "Alert List (for selected Xen Hypervisor VM)",
+            "type": "AlertList"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "MICROSOFT_HYPERV_ADAPTER",
+         "internalId": "resourceKind:id:5_::_",
+         "resourceKindKey": "microsoft_hyper_v_bm_exuno_microsoft_scvmm_virtual_machine"
+      },
+      {
+         "adapterKindKey": "XenHypervisorAdapter",
+         "internalId": "resourceKind:id:8_::_",
+         "resourceKindKey": "XenHypervisorVirtualMachine"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "HostSystem"
+      },
+      {
+         "adapterKindKey": "MICROSOFT_HYPERV_ADAPTER",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "microsoft_hyper_v_bm_exuno_microsoft_scvmm_host"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "VirtualMachine"
+      },
+      {
+         "adapterKindKey": "KVMAdapter",
+         "internalId": "resourceKind:id:6_::_",
+         "resourceKindKey": "KVMVirtualMachine"
+      },
+      {
+         "adapterKindKey": "XenHypervisorAdapter",
+         "internalId": "resourceKind:id:7_::_",
+         "resourceKindKey": "XenHypervisorHosts"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "vSphere World"
+      },
+      {
+         "adapterKindKey": "KVMAdapter",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "KVMHosts"
+      }
+   ]},
+   "uuid": "cad55449-e428-4074-8bbe-ff24623a6643"
+}
